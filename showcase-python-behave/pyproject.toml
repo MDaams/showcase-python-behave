@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "showcase-python-behave"
+version = "0.1.0"
+description = ""
+authors = ["Martijn Daams <ma.daams@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+behave = "1.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
